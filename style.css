@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-container{
+   width: 100%;
+   height: auto;
+   background-color: black;
+    
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* margin-right: 10px; */
+    
+
+}
+
+.nav-list li{
+   
+    list-style: none;
+    padding: 20px;
+   
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(183, 179, 179);
+
+}
+.nav-list li i{
+    color: rgb(171, 164, 164);
+    font-size: 17px;
+}
+
+
+.nav-list li a:hover{
+
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+     
+}
+
+.nav-list li i:hover{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+     
+}
+/* .background{
+    background-color: rgb(222, 196, 196);
+   background-blend-mode: darken;
+
+    
+} */
+.text{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #5c6063;
+    position: sticky;
+    top: 0px;
+    
+}
+.text h6{
+    font-size: 22px;
+    color: white;
+    font-size: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text a{
+    text-decoration: none;
+    color: white;
+}
+.text a:hover{
+    color: rgb(228, 194, 194);
+    
+}
+    
+
+ 
+.text span{
+    margin-right: 20px;
+
+}
+
+span  :first-child{
+    border: none;
+    background-color:  #5c6063;;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+span :last-child{
+    border: none;
+    background-color: #5c6063;;
+    color: white;
+    
+}
+span a{
+    border: none;
+    text-decoration: none;
+}
+span a:hover{
+    color: rgb(161, 182, 182);
+}
+
+
+
+.image-section{
+    
+    background-color: black;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    background-size: cover; 
+   
+   
+}
+    
+
+.pagebody-copy {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.picture-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.picture-section img{
+   width: 65%;
+   height: auto;
+   border-radius: 15px;
+
+
+}
+
+ .txt-section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}
+.txt-section  p{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(162, 160, 160);
+
+}
+.txt-section  i{
+    border: none;
+    color: gray;
+
+}
+
+.txt-section  i:hover{
+    color: blue;
+}
+
+.article{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+ 
+
+.article p{
+    color:white ;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav i{
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+} 
+
+.box{
+    width: 650px;
+    height: 500px;
+    color: rgb(6, 6, 6);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+   
+}
+.box{
+
+    width: 100%;
+    height: 500px;
+    color: rgb(6, 6, 6);
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.box nav{
+    width: 650PX;
+    height: 250PX;
+    background-color: rgb(32, 30, 30);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.box p{
+   
+    color: white;
+    font-size: 18px;
+    
+    
+
+}
+.box button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    /* padding-bottom: 20px; */
+   
+}
+
+
+
+.box  hr{
+    width: 560px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.button-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 35px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding-top: 30px;
+    justify-content: space-evenly;
+    background-color: #191919;
+}
+.footer ul{
+    list-style: none;
+    font-size: 12px;
+    
+}
+.footer ul li{
+
+    margin-top: 13px;
+    color: #c3c5c8;
+    
+    
+}
+.footer ul li a{
+
+  border: none;
+  color: rgb(229, 217, 217);
+  text-decoration: none;
+    
+}
+.footer ul li a:hover{
+
+    font-size: 14px;
+    color: #6fa8d4
+
+}
+
+.comment-section{
+    width: 100%;
+    background-color: #191919;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+.comment-section p{
+    /* margin-left: 130px; */
+    padding: 100px;
+    color: #6f6e6e;
+    padding-bottom: 10px;
+
+}
+.comment-section hr{
+   border: 1px solid rgb(75, 75, 75);
+ 
+
+}
+
+
+
+@media (max-width:768px) {
+
+
+    .main-container{
+    
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar{
+        
+        font-size: 10px;
+      display: flex;
+       align-items: center;
+       justify-content: center;
+      
+    }
+
+    .nav-list{
+        width: 100%;
+        font-size: 10px;
+        /* display: flex;
+       align-items: center;
+       justify-content: center; */
+      
+    }
+    
+    
+}
+
+
+
